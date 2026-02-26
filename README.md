@@ -12,20 +12,20 @@ This is a simple and efficient Python script designed for Linux systems that sel
 ✨ Features
 Random Selection: Picks a video at random within the configured directory.
 
-Automatic Installation: On its first run, the script automatically creates a shortcut (<pre>```.desktop``` </pre>) in your Linux application menu.
+Automatic Installation: On its first run, the script automatically creates a shortcut (<pre>``.desktop``</pre>) in your Linux application menu.
 
 Dynamic Paths: The code automatically identifies its own installation path, making it highly portable.
 
-MPV Integration: Uses the <pre>```mpv``` </pre> player for lightweight playback and native controls.
+MPV Integration: Uses the <pre>``mpv``</pre> player for lightweight playback and native controls.
 
 🚀 How to Use
 📦 Prerequisites
 
 Make sure the following dependencies are installed:
 
-<pre>```python3``` </pre>
+<pre>``python3`` </pre>
 
-<pre>```mpv``` </pre>
+<pre>``mpv``</pre>
 
 🖥 Install MPV (Debian/Ubuntu)
 
