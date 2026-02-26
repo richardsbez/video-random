@@ -54,8 +54,10 @@ Random Video Player
 directly from your system’s application menu — no terminal required.
 
 📁 Project Structure
+<pre> ```
 .
-├── video_random.py      # Main Python script
-├── VideoRandom.png      # Project icon or screenshot
-├── mise.toml            # Environment configuration (optional)
-└── README.md            # Project documentation
+├── video_random.py
+├── VideoRandom.png
+├── mise.toml
+└── README.md
+``` </pre>
