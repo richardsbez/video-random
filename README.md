@@ -19,23 +19,43 @@ Dynamic Paths: The code automatically identifies its own installation path, maki
 MPV Integration: Uses the mpv player for lightweight playback and native controls.
 
 🚀 How to Use
-Prerequisites: Ensure you have python3 and mpv installed on your system.
+📦 Prerequisites
 
-Bash
+Make sure the following dependencies are installed:
+
+python3
+
+mpv
+
+🖥 Install MPV (Debian/Ubuntu)
+sudo apt update
 sudo apt install mpv
-Configuration: Place your videos in the gallery-dl/instagram folder (or adjust the path in the script).
+🖥 Install MPV (Arch Linux)
+sudo pacman -S mpv
+⚙️ Configuration
 
-Execution:
+Place your videos inside:
 
-Bash
-´python3 video_random.py´
-App Menu: After the first run, you can open "Random Video Player" directly from your system's app menu without using the terminal.
+gallery-dl/instagram/
+
+Or modify the target directory directly inside:
+
+video_random.py
+▶️ Execution
+
+Run the script manually:
+
+python3 video_random.py
+
+After the first execution, the script will automatically create a desktop entry, allowing you to open:
+
+Random Video Player
+
+directly from your system’s application menu — no terminal required.
 
 📁 Project Structure
-video_random.py: The main Python script.
-
-VideoRandom.png: Project icon or screenshot.
-
-mise.toml: Environment configurations (if using the mise manager).
-
-README.md: Project documentation.
+.
+├── video_random.py      # Main Python script
+├── VideoRandom.png      # Project icon or screenshot
+├── mise.toml            # Environment configuration (optional)
+└── README.md            # Project documentation
