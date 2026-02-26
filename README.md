@@ -12,11 +12,11 @@ This is a simple and efficient Python script designed for Linux systems that sel
 ✨ Features
 Random Selection: Picks a video at random within the configured directory.
 
-Automatic Installation: On its first run, the script automatically creates a shortcut (<pre>``.desktop``</pre>) in your Linux application menu.
+Automatic Installation: On its first run, the script automatically creates a shortcut (`.desktop`) in your Linux application menu.
 
 Dynamic Paths: The code automatically identifies its own installation path, making it highly portable.
 
-MPV Integration: Uses the <pre>``mpv``</pre> player for lightweight playback and native controls.
+MPV Integration: Uses the `mpv` player for lightweight playback and native controls.
 
 🚀 How to Use
 📦 Prerequisites
@@ -29,53 +29,53 @@ Make sure the following dependencies are installed:
 
 🖥 Install MPV (Debian/Ubuntu)
 
-<pre>```
+```bash
 sudo apt update
 sudo apt install mpv
-``` </pre>
+```
 
 🖥 Install MPV (Arch Linux)
 
-<pre>```
+<pre>``
 sudo pacman -S mpv
-``` </pre>
+``</pre>
   
 ⚙️ Configuration
 
 Place your videos inside:
 
-<pre>```
+<pre>``
 gallery-dl/instagram/
-``` </pre>
+``</pre>
   
 Or modify the target directory directly inside:
 
-<pre>```
+<pre>``
 video_random.py
-``` </pre>
+``</pre>
 
 
 ▶️ Execution
 
 Run the script manually:
 
-<pre>```
+<pre>``
 python3 video_random.py
-``` </pre>
+``</pre>
 
 After the first execution, the script will automatically create a desktop entry, allowing you to open:
 
-<pre>```
+<pre>``
 Random Video Player
-``` </pre>
+``</pre>
 
 directly from your system’s application menu — no terminal required.
 
 📁 Project Structure
-<pre>```
+<pre>``
 .
 ├── video_random.py
 ├── VideoRandom.png
 ├── mise.toml
 └── README.md
-``` </pre>
+``</pre>
