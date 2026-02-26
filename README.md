@@ -23,51 +23,43 @@ MPV Integration: Uses the `mpv` player for lightweight playback and native contr
 
 Make sure the following dependencies are installed:
 
-<pre>``python3`` </pre>
-
-<pre>``mpv``</pre>
+- `python3`
+- `mpv`
 
 🖥 Install MPV (Debian/Ubuntu)
-
 ```bash
 sudo apt update
 sudo apt install mpv
 ```
 
 🖥 Install MPV (Arch Linux)
-
-<pre>``
+```bash
 sudo pacman -S mpv
-``</pre>
+```
   
 ⚙️ Configuration
 
 Place your videos inside:
-
-<pre>``
+``
 gallery-dl/instagram/
-``</pre>
+``
   
 Or modify the target directory directly inside:
-
-<pre>``
+``
 video_random.py
-``</pre>
+``
 
 
 ▶️ Execution
 
 Run the script manually:
-
-<pre>``
+```bash
 python3 video_random.py
-``</pre>
-
+```
 After the first execution, the script will automatically create a desktop entry, allowing you to open:
-
-<pre>``
+``
 Random Video Player
-``</pre>
+``
 
 directly from your system’s application menu — no terminal required.
 
