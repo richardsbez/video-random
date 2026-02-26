@@ -28,7 +28,7 @@ Configuration: Place your videos in the gallery-dl/instagram folder (or adjust t
 Execution:
 
 Bash
-python3 video_random.py
+´python3 video_random.py´
 App Menu: After the first run, you can open "Random Video Player" directly from your system's app menu without using the terminal.
 
 📁 Project Structure
